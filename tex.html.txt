@@ -1,0 +1,6 @@
+CREATE TABLE contacts (
+contact_id integer PRIMARY KEY ,
+first_naem text Not NULL,
+email text NOT NULL UNIQUE,
+PHONE  text NOT NULL UNIQUE
+);
